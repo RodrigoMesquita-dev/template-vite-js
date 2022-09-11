@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 h1 {
-  @apply text-7xl font-bold mb-12; 
+  @apply text-7xl font-bold mb-12 mobile:text-6xl; 
 }
 
 h2 {
@@ -19,13 +19,13 @@ input, textarea {
 }
 
 .button{
-  @apply bg-pink-500 rounded cursor-pointer py-2 px-4 text-white hover:bg-pink-800
+  @apply bg-pink-500 rounded cursor-pointer py-2 px-4 text-white hover:bg-pink-800 mobile:mb-8;
 }
 
 .wrapper{
-  @apply container mx-auto py-60;
+  @apply container mx-auto laptop:py-60 mobile:py-24;
 }
 
 .link {
-  @apply ml-8 font-bold hover:underline;
+  @apply py-4 ml-8 font-bold hover:underline laptop:py-4;
 }

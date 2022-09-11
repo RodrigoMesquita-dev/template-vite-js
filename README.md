@@ -6,4 +6,4 @@ This template should help get you started developing with Vue 3 in Vite. The tem
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-I made this template tailwind side using Steffoverflow tutorial: https://www.youtube.com/watch?v=xtRWtqU3dcc
+*I adapted this template tailwind side using Steffoverflow tutorial: https://www.youtube.com/watch?v=xtRWtqU3dcc althought its not exactly as the tutorial, i still used the basics in it.
