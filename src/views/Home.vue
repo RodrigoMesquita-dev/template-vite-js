@@ -64,18 +64,18 @@
           nec nulla tempor, ut porttitor est blandit. Integer interdum cursus commodo.
         </p>
         <form method="POST" class="grid grid-cols-2 gap-8 mt-32">
-          <label for="email" class="col-span-1 mobile:col-span-2">
+          <label for="email" class="col-span-2 laptop:col-span-1 ">
             Email
             <input name="email"/>
           </label>
-          <label for="honeypot" class="col-span-1 mobile:hidden">
+          <label for="honeypot" class="hidden laptop:block col-span-1">
             <input type="hidden" name="honeypot"/>
           </label>
-          <label for="firstname" class="col-span-1 mobile:col-span-2">
+          <label for="firstname" class="col-span-2 laptop:col-span-1">
             FirstName
             <input name="firstname" />
           </label>
-          <label for="lastname" class="col-span-1 mobile:col-span-2">
+          <label for="lastname" class="col-span-2 laptop:col-span-1 ">
             Lastname
             <input name="lastname"/>
           </label>
